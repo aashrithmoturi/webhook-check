@@ -28,4 +28,3 @@ tasks:
       repoBranchOrTag: main
       arguments:
         backupName: vbackup
-        # end of yaml
