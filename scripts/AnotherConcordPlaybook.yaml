@@ -17,3 +17,14 @@ tasks:
       repoBranchOrTag: main
       arguments:
         backupName: vbackup
+  - title: Task 1
+    description: Task 1
+    type: concord
+    process:
+      org: k8s
+      project: sample-playbook-task
+      repo: default
+      entrypoint: main
+      repoBranchOrTag: main
+      arguments:
+        backupName: vbackup
