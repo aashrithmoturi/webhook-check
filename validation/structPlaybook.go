@@ -1,4 +1,4 @@
-package fold1
+package validation
 
 type PlaybookStruct struct {
 	Name        string            `yaml:"name"`

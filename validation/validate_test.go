@@ -1,4 +1,4 @@
-package fold1
+package validation
 
 import "testing"
 
