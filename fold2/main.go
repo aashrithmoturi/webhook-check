@@ -6,9 +6,6 @@ import (
 )
 
 func main() {
-	// var s string = "wehrieurf"
-	// fmt.Println(fold1.Reverse(s))
-	// fmt.Println(cmp.Diff("Hello World", "Hello Go"))
 
 	arr := make([]string, 0)
 	arr = append(arr, "exmp.yaml")
