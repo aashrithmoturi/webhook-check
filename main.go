@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"golang-yaml/validation"
 
-	"github.com/hashicorp/go-multierror"
+	m "github.com/hashicorp/go-multierror"
 )
 
 func main() {
@@ -12,7 +12,7 @@ func main() {
 	arr := make([]string, 0)
 	arr = append(arr, "../fold2/exmp.yaml")
 	arr = append(arr, "../fold2/exmp2.yaml")
-	listOfErrors := validation.ValidateYamlFile(arr).(*multierror.Error)
+	listOfErrors := validation.ValidateYamlFile(arr).(*m.Error)
 	if len(listOfErrors.Errors) > 0 {
 		fmt.Println(validation.ValidateYamlFile(arr))
 	} else {
