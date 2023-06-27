@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	//even if one file fails the overall validation should fail.
+	// even if one file fails the overall validation should fail.
 	arr := make([]string, 0)
 	arr = append(arr, "../fold2/exmp.yaml")
 	arr = append(arr, "../fold2/exmp2.yaml")
