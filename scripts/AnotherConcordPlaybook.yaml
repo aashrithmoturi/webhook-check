@@ -1,4 +1,4 @@
-# name: AnotherConcordPlaybook
+name: AnotherConcordPlaybook
 # title: Another Concord Playbook
 description: Simple Concord playbook for testing purposes
 # owner: example@walmart.com
@@ -7,7 +7,7 @@ metadata:
   backupName: string
 tasks:
   - title: Task 1
-    # description: Task 1
+    description: Task 1
     type: concord
     process:
       org: k8s
