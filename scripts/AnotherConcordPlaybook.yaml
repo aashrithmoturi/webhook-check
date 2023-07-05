@@ -12,7 +12,7 @@ tasks:
     process:
       org: k8s
       project: sample-playbook-task
-      # repo: default
+      repo: default
       entrypoint: main
       repoBranchOrTag: main
       arguments:
