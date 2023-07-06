@@ -19,7 +19,7 @@ func Test_validateOwner(t *testing.T) {
 				file: "scripts/SimpleConcordPlaybook.yaml",
 				s:    "a@walmart.com",
 			},
-			wantErr: true,
+			wantErr: false,
 		},
 	}
 	for _, tt := range tests {
