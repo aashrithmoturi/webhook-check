@@ -10,7 +10,7 @@ import (
 func main() {
 	// even if one file fails the overall validation should fail.
 	arr := make([]string, 0)
-
+	//we
 	arr = append(arr, "scripts/AnotherConcordPlaybook.yaml")
 	arr = append(arr, "scripts/SimpleConcordPlaybook.yaml")
 	listOfErrors := validation.ValidateYamlFile(arr).(*m.Error)
